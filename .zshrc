@@ -2,11 +2,8 @@
 # load antibody, the zsh package manager
 source <(antibody init)
 
-antibody bundle <<<ANTIBODY
+antibody bundle < ~/.zsh_plugins.txt
 
-caarlos0/jvm
-
-ANTIBODY
 # Load the oh-my-zsh's library.
 #antigen use oh-my-zsh
 
